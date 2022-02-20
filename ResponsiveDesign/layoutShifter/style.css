@@ -32,31 +32,36 @@ html {
     background-color: rgb(255, 81, 0);
 }
 
-/*
-media (min-width: 600px){
-    .c2, .c3, .c4{
-        width: 50%;
+.c4 {
+    height: auto;
+}
+
+@media (min-width: 600px){
+    .c1 {
+        width: 25%;
+        height: auto;
+    }
+    .c4 {
+        width: 75%;
+    }
+    .c5 {
+        width: 100%;
     }
 }
-*/
-/*
 @media (min-width: 800px){
     .container{
         width: 800px;
-        margin: auto;
+        margin: 0 auto;
     }
-    .c1{
-        width: 60%;
+    .c1 {
+        width: 50%;
+        order: 1;
     }
-    .c2{
-        width: 40%;
-    }
-    .c3, 
     .c4 {
-        width: 33%;
+        width: 100%;
     }
     .c5 {
-        width: 34%;
+        width: 50%;
+        order: 2;
     }
 }
-*/
