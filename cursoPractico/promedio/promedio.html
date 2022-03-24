@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promedio</title>
+    <link rel="stylesheet" href="./promedio.css">
+    <script src="./promedio.js"></script>
+    
+</head>
+<body>
+    <header>
+        <h1>Promedio, Mediana y Moda</h1>
+        <p>Tercera práctica</p>
+    </header>
+    <!--*-------añadir--------------->
+    <div class="container">
+        <section class="add">
+            <h2>Creando la lista</h2>
+            <form action="">
+                <label for="add">
+                    <span>Escribe el numero a añadir:</span>
+                    <input type="number" name="add" id="add">
+                </label>
+                <div>
+                    <p class="texto" id="lista"></p>
+                </div>
+                <div>
+                    <button type="button" onclick="añadir()">Añadir número</button>
+                    <button type="button" onclick="borrar()">Borrar lista</button>
+                </div>
+            </form>
+        </section>
+    </div>
+    
+    <main>
+        
+        <!--*-------Promedio--------------->
+        <section>
+            <h2>Promedio</h2>
+            <form action="">
+                
+                <label for="promedio">
+                    <span>Resultado</span>
+                    <input type="number" name="promedio" id="promedio">
+                </label>
+                <div>
+                    <button type="button" onclick="promedioResultado()">Calcular el promedio</button>
+                </div>
+            </form>
+        </section>
+        <!--*-------Mediana--------------->
+        <section>
+            <h2>Mediana</h2>
+            <form action="">
+                
+                <label for="mediana">
+                    <span>Resultado</span>
+                    <input type="number" name="mediana" id="mediana">
+                </label>
+                <div>
+                    <button type="button" onclick="medianaResultado()">Calcular la mediana</button>
+                </div>
+            </form>
+        </section>
+        <!--*-------Moda--------------->
+        <section>
+            <h2>Moda</h2>
+            <form action="">
+                
+                <label for="moda">
+                    <span>Resultado</span>
+                    <input type="number" name="moda" id="moda">
+                </label>
+                <div>
+                    <button type="button" onclick="modaResultado()">Calcular la moda</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    
+</body>
+</html>
