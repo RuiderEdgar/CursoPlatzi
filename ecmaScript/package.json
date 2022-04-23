@@ -1,0 +1,11 @@
+{
+  "name": "ecmascript",
+  "version": "1.0.0",
+  "description": "Entendiendo ecmaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "src/es6/index.js"
+  },
+  "author": "Edgar Rivera",
+  "license": "ISC"
+}
